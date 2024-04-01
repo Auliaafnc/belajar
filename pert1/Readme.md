@@ -2,8 +2,8 @@
 
 ## Membuat Folder baru dalam sistem file (mkdir).
 mkdir = Membuat direktori baru
-cd    = Mengubah direktori kerja
-ls    = menampilkan daftar file didalam sebuah direktori
+<p>cd    = Mengubah direktori kerja</p>
+<p>ls    = menampilkan daftar file didalam sebuah direktori</p>
 
 buka terminal lalu pilih ubuntu untuk membuat foleder dengan command mkdir.
 langkah awal ketik ls lalu dienter, setelah itu buat folder dengan mkdir (nama folder) setelah itu enter dan lihat kembali apakah foldernya sudah terbuat atau belum. untuk mengecek folder dibuat atau belum bisa ketikkan ls setelah membuat folder. jika sudah folder akan terlihat jika sudah dibuat.
@@ -13,16 +13,16 @@ setelah membuat folder, selanjutnya membuat isi folder. untuk membuat isi folder
 
 ## Command dasar linux lainnya
 cd .. = kembali ke folder
-nano  = Mengedit file dengan editor teks
-code . = untuk membuka folder di vscode
-rm    = untuk menghapus file
-mv    = Memindahkan atau mengganti nama file dan direktori
-chmod = Memodifikasi izin baca, tulis, dan eksekusi file
-touch = menambahkan file
-g++ & ./(nama file) = untuk running c++
+<p>nano  = Mengedit file dengan editor teks</p>
+<p>code . = untuk membuka folder di vscode</p>
+<p>rm    = untuk menghapus file</p>
+<p>mv    = Memindahkan atau mengganti nama file dan direktori</p>
+<p>chmod = Memodifikasi izin baca, tulis, dan eksekusi file</p>
+<p>touch = menambahkan file</p>
+<p>g++ & ./(nama file) = untuk running c++</p>
 
 
 ## Cara mengepush di github
-a. git add .  = untuk push ke github
-b. git commit -m "nama_folder" = Menambahkan atau memperbarui berkas dalam nama_folder
-c. git push -u origin main = untuk push ke github
+<p>a. git add .  = untuk push ke github</p>
+<p>b. git commit -m "nama_folder" = Menambahkan atau memperbarui berkas dalam nama_folder</p>
+<p>c. git push -u origin main = untuk push ke github</p>
