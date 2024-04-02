@@ -1,41 +1,55 @@
 ## COMMAND DASAR LINUX
 
 ## Membuat Folder baru dalam sistem file (mkdir).
-mkdir = Membuat folder baru
-<p>cd    = akses membuka folder</p>
-<p>ls    = menampilkan daftar file didalam sebuah folder</p>
+mkdir = Adalah perintah untuk membuat sebuah folder. Sebagai contoh perintahnya adalah: mkdir (nama folder)
+<p>cd    = akses membuka folder, contoh foldernya adalah: cd (nama folder yang telah dibuat)</p>
+<p>ls    = menampilkan daftar file didalam sebuah folder. contoh perintahnya bisa langsung ketik saja ls.</p>
 
-buka terminal lalu pilih ubuntu untuk membuat foleder dengan command mkdir.
-langkah awal ketik ls lalu dienter, setelah itu buat folder dengan mkdir (nama folder) setelah itu enter dan lihat kembali apakah foldernya sudah terbuat atau belum. untuk mengecek folder dibuat atau belum bisa ketikkan ls setelah membuat folder. jika sudah folder akan terlihat jika sudah dibuat.
+langkah awal yang kita lakukan adalah membuat folder yang nantinya akan dipakai untuk melakukan perintah. berikut adalah beberapa langkah yang akan dilakukan
+
 <p>langkah langkah membuatnya:</p>
 <p>1. buka terminal</p>
-<p>2. ketik mkdir (nama folder) enter</p>
+<p>2. ketik mkdir (nama folde, gak usah pake tanda kurung) enter</p>
 <p>3. ketik ls enter</p>
-<p>4. ketik cd (nama folder) enter (untuk membuka akses folder yang telah dibuat)</p>
+<p>4. ketik cd (nama folder yang telah dibuat, gak usah pake tanda kurung) enter (untuk membuka akses folder yang telah dibuat)</p>
 <p>5. ketik ls enter</p>
 <p>6. ketik code . enter (untuk masuk ke vscode)</p>
 
 ## Membuat isi folder
-setelah membuat folder, selanjutnya membuat isi folder. untuk membuat isi folder tidak jauh berbeda dengan membuat folder. setelahnya buat file file yang diperlukan di dalam folder tersebut. setelahnya isi file sesuai kebutuhan. 
+setelah membuat isi folder, selanjutnya membuat isi folder. untuk membuat isi folder tidak jauh berbeda dengan membuat folder. setelahnya buat file file yang diperlukan di dalam folder tersebut. setelahnya isi file sesuai kebutuhan. 
 <p>langkah langkah membuatnya:</p>
 <p>1. buka terminal</p>
-<p>2. ketik cd (nama folder yang telah dibuat) enter</p>
+<p>2. ketik cd (nama folder yang telah dibuat, gak usah pake tanda kurung) enter</p>
 <p>3. ketik ls enter</p>
-<p>4. ketik mkdir (nama isi folder yang akan dibuat) enter</p>
+<p>4. ketik mkdir (nama isi folder yang akan dibuat, gak usah pake tanda kurung) enter</p>
 <p>5. ketik ls enter</p>
 <p>6. ketik code . (untuk membuka vscode) enter</p>
 
 ## Cara ngepush ke github
-buka terminal bisa langsung di vscode atau terminal lainnya.
+langkah untuk ngepush pembaruan di github yang repositorinya telah dibuat:
+<p>buka terminal bisa langsung di vscode atau terminal lainnya.</p>
 <p> 1. jika terminal dari vscode berikut langkahnya:</p>
 <p> karena menggunakan terminal dari vscode maka langsung ketikkan git add . lalu enter ketik lagi git commit -m "nama_folder" enterr dan ketik git push -u origin main  setelah itu cek github sudah terpush atau belum.</p>
 <p> 2. jika menggunakan terminal dari ubuntu langkahnya sebagai berikut:</p>
-<p> - ketik cd (nama folder) (lalu enter)</p>
+<p> - ketik cd (nama folder, gak usah pake tanda kurung) (lalu enter)</p>
 <p> - ketik ls (lalu enter)</p>
-<p> - ketik cd ( isi folder) (lalu enter)</p>
+<p> - ketik cd (isi folder, gak usah pake tanda kurung) (lalu enter)</p>
 <p> - ketik ls (lalu enter)</p>
 <p> - ketik git add . (lalu enter)</p>
 <p> - ketik git commit -m "nama_folder" (lalu enter)</p>
+<p> - ketik git push -u origin main (lalu enter)</p>
+<p>setelah itu dicek kembali di github apakah sudah terpush atau belum.</p>
+
+<p>langkah untuk ngepush dan membuat repositori baru di github</p>
+<p>jika menggunakan terminal dari ubuntu langkahnya sebagai berikut:</p>
+<p> - ketik cd (nama folder, gak usah pake tanda kurung) (lalu enter)</p>
+<p> - ketik ls (lalu enter)</p>
+<p> - ketik cd (isi folder, gak usah pake tanda kurung) (lalu enter)</p>
+<p> - ketik ls (lalu enter)</p>
+<p> - ketik git add . (lalu enter)</p>
+<p> - ketik git commit -m "nama_folder" (lalu enter)</p>
+<p> - ketik git branch -M main  (lalu enter)</p>
+<p> - ketik git remote (link ssh, gak usah pake tanda kurung langsung linknya aja) ssh ambil di github yang akan digunakan</p>
 <p> - ketik git push -u origin main (lalu enter)</p>
 <p>setelah itu dicek kembali di github apakah sudah terpush atau belum.</p>
 
@@ -58,3 +72,7 @@ cd .. =  digunakan untuk berpindah satu level ke atas dalam struktur direktori
 <p>apt-get (atau apt): Untuk mengelola paket-paket pada distribusi Linux yang menggunakan sistem manajemen paket Debian.</p>
 <p>yum: Untuk mengelola paket-paket pada distribusi Linux yang menggunakan sistem manajemen paket RPM.</p>
 <p>git clone "link yang mau di clone"  = untuk membuat salinan lengkap dari repositori Git yang sudah ada. Ini berguna saat Anda ingin bekerja dengan repositori yang sudah ada secara lokal di komputer Anda.</p>
+
+
+## PERHATIAN
+setiap mengetikan kode atau syntax diharuskan benar benar teliti. karena jika tidak akan menimbulkan error atau program tidak akan jalan sesuai dengan keinginan yang kita mau.
