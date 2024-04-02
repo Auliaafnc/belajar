@@ -47,12 +47,20 @@ langkah untuk ngepush pembaruan di github yang repositorinya telah dibuat:
 <p> - ketik ls (lalu enter)</p>
 <p> - ketik cd (isi folder, gak usah pake tanda kurung) (lalu enter)</p>
 <p> - ketik ls (lalu enter)</p>
+<p> - ketik git init</p>
 <p> - ketik git add . (lalu enter)</p>
 <p> - ketik git commit -m "nama_folder" (lalu enter)</p>
 <p> - ketik git branch -M main  (lalu enter)</p>
 <p> - ketik git remote (link ssh, gak usah pake tanda kurung langsung linknya aja) ssh ambil di github yang akan digunakan</p>
 <p> - ketik git push -u origin main (lalu enter)</p>
 <p>setelah itu dicek kembali di github apakah sudah terpush atau belum.</p>
+<p> * git init = Menginisialisasi repositori Git baru di direktori saat ini.</p>
+<p> * git add . = Menambahkan semua perubahan yang belum di-track ke staging area.</p>
+<p> * git commit -m "nama_folder" = Membuat commit dengan pesan "nama_foler" dari perubahan-perubahan yang ada di staging area.</p>
+<p> * git branch -M main =  Mengganti nama branch dari "master" menjadi "main" (ini adalah praktik yang semakin umum dilakukan untuk menghindari konotasi yang mungkin tidak diinginkan dari istilah "master").</p>
+<p> * git remote (link ssh, gak usah pake tanda kurung langsung linknya aja) = Menambahkan remote repository dengan URL SSH yang diberikan oleh GitHub. Ini memungkinkan Git untuk berkomunikasi dengan repositori jarak jauh.</p>
+<p> * git push -u origin main  = Mendorong (push) perubahan lokal ke repositori jarak jauh di branch "main", dan menetapkan branch lokal "main" untuk melacak branch "main" di repositori jarak jauh ("origin"). Opțiune -u menetapkan branch saat ini sebagai branch upstream, yang memungkinkan Anda menggunakan perintah git push tanpa argumen di masa mendatang.</p>
+
 
 
 
