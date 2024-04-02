@@ -39,7 +39,7 @@ langkah untuk ngepush pembaruan di github yang repositorinya telah dibuat:
 <p> - ketik git commit -m "nama_folder" (lalu enter)</p>
 <p> - ketik git push -u origin main (lalu enter)</p>
 <p>setelah itu dicek kembali di github apakah sudah terpush atau belum.</p>
-
+<p> 
 <p>langkah untuk ngepush dan membuat repositori baru di github</p>
 <p>jika menggunakan terminal dari ubuntu langkahnya sebagai berikut:</p>
 <p> - ketik cd (nama folder, gak usah pake tanda kurung) (lalu enter)</p>
@@ -52,6 +52,7 @@ langkah untuk ngepush pembaruan di github yang repositorinya telah dibuat:
 <p> - ketik git remote (link ssh, gak usah pake tanda kurung langsung linknya aja) ssh ambil di github yang akan digunakan</p>
 <p> - ketik git push -u origin main (lalu enter)</p>
 <p>setelah itu dicek kembali di github apakah sudah terpush atau belum.</p>
+</p>
 
 
 ## Command dasar linux lainnya
